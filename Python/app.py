@@ -1,9 +1,17 @@
-import math
+is_hot = False
+is_cold = False
 
-x = 2.499
-print(abs(x))
-print(math.ceil(2.9))
+if is_hot:
+    print("It's a hot day!")
+    print("Drink plenty of water")
+elif is_cold:
+    print("Its a cold day!")
+    print("Wear warm clothes!")
+else:
+    print("It's a lovely day!")
 
-#ended Python Tutorial at 57:25
+print("Enjoy your day")
+
+#ended Python Tutorial at 1:04:34
 #Python Tutorial - Python Full Course for Beginners
 #Programming with Mosh
