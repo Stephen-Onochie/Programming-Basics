@@ -1,6 +1,4 @@
-try:
-    s = 1
-except:
-    s = "flka"
+word = "bananana"
+i = "Stephen \nOnochie"
 
-print(s)
+print(i)
