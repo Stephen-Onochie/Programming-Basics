@@ -25,7 +25,7 @@ button.pack(side = 'left', padx = 10)
 input_frame.pack(pady = 10)
 
 #output
-output_string = tk.Str
+output_string = tk.StringVar()
 output_label = ttk.Label(master = window, text = 'Output', font = 'Calibri 24')
 output_label.pack(pady=5)
 
